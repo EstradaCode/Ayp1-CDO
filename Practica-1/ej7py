@@ -1,0 +1,9 @@
+edad= int(input("escriba su edad"))
+if(edad <7):
+    print("usted pertenece a preescolar")
+elif(edad>=7 and edad<=12):
+    print("usted pertenece al primario")
+elif(edad>=13 and edad<=18):
+    print("usted pertenece al secundario")
+else:
+    print("usted pertenece a la universidad")
